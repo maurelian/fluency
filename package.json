@@ -1,0 +1,47 @@
+{
+  "name": "fluency",
+  "version": "0.0.1",
+  "description": "A collection of standard Ethereum contract impls, in different languages",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "build": "node ./build.js",
+    "test:simpleStorage": "mocha contracts/simple-storage/test/test_SimpleStorage.js",
+    "postinstall": "",
+    "fix:js": "eslint --fix *.js",
+    "lint:js": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    ""
+  ],
+  "authors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "colors": "^1.2.1",
+    "eslint": "4.13.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "2.11.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-mocha": "4.11.0",
+    "eslint-plugin-node": "5.1.0",
+    "eslint-plugin-react": "7.5.1",
+    "ethjs-contract": "^0.2.3",
+    "ethjs-provider-http": "^0.1.6",
+    "ethjs-query": "^0.3.8",
+    "mocha": "^5.2.0",
+    "shelljs": "^0.8.2",
+    "solc": "^0.4.23"
+  },
+  "devDependencies": {}
+}
